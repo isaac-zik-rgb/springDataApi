@@ -1,0 +1,18 @@
+# TASK TO DO
+1. Add basic aunthentication to it. unAunthenticated users will not have access to the enpoint
+2. create a new entity of student and each student has a course assigned to him or her or list of course he or she offers
+3. give an Authority to this student, only student that has right  to the course can view there course they have right to.
+4. create a new entity call Course which will have list of subjects that belongs to the course
+5. Create a subjects entity with there respective properties
+6. create a controller that create a course with it's respective properties, add a subject or list of subjects to the course, disable a subject or remove it from the course,
+update the subject, and also update the course.
+7. write unit test for this projects and run your tests against your code.
+8. also test your endpoint with postman
+
+8. please ask questions if you need clearer view.
+
+# What you will learn after the project
+1. You will learn how JDBC and hibernate interract in database
+2. hands-on experience with spring boot and postreqs
+3. basic crud operation
+4. how authentication works.
