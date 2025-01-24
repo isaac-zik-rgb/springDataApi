@@ -1,18 +1,24 @@
-# TASK TO DO
-1. Add basic aunthentication to it. unAunthenticated users will not have access to the enpoint
-2. create a new entity of student and each student has a course assigned to him or her or list of course he or she offers
-3. give an Authority to this student, only student that has right  to the course can view there course they have right to.
-4. create a new entity call Course which will have list of subjects that belongs to the course
-5. Create a subjects entity with there respective properties
-6. create a controller that create a course with it's respective properties, add a subject or list of subjects to the course, disable a subject or remove it from the course,
-update the subject, and also update the course.
-7. write unit test for this projects and run your tests against your code.
-8. also test your endpoint with postman
+# steps to take
+1. clone the repository
+2. create a new local branch
+3. try to configure our database in the application-dev.properties
+#NOTE: please change the details of the database username, password, host, etc with your own details.
 
-8. please ask questions if you need clearer view.
+# TASK TO DO
+1. Add basic authentication to it. unauthenticated users will not have access to the Endpoint
+2. create a new entity of students and each student has a course assigned to him or her or a list of courses he or she offers
+3. give an Authority to this student, only students that have the right  to the course can view the course they have the right to.
+4. create a new entity called Course which will have a list of subjects that belong to the course
+5. Create a subject entity with its respective properties
+6. create a controller that creates a course with its respective properties, add a subject or list of subjects to the course, disable a subject or remove it from the course,
+update the subject, and also update the course.
+7. Write a unit test for this project and run your tests against your code.
+8. also test your endpoint with Postman
+
+8. please ask questions if you need a clearer view.
 
 # What you will learn after the project
-1. You will learn how JDBC and hibernate interract in database
+1. You will learn how JDBC and hibernate interact in database
 2. hands-on experience with spring boot and postreqs
 3. basic crud operation
 4. how authentication works.
