@@ -3,11 +3,13 @@
 2. create a new local branch
 3. try to configure our database in the application-dev.properties
 #NOTE: please change the details of the database username, password, host, etc with your own details.
+4. import your necessary dependencies. you can use the maven repository to find and get your dependencies.(search for maven repository on your browser)
+
 
 # TASK TO DO
 1. Add basic authentication to it. unauthenticated users will not have access to the Endpoint
 2. create a new entity of students and each student has a course assigned to him or her or a list of courses he or she offers
-3. give an Authority to this student, only students that have the right  to the course can view the course they have the right to.
+3. give Authority to this student, only students that have the right  to the course can view the course they have the right to.
 4. create a new entity called Course which will have a list of subjects that belong to the course
 5. Create a subject entity with its respective properties
 6. create a controller that creates a course with its respective properties, add a subject or list of subjects to the course, disable a subject or remove it from the course,
